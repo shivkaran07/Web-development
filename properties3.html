@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Styled Page with Background</title>
+  <style>
+    /* 🌄 Background Image on Body */
+    body {
+      background-image: url("lion.jpg"); /* Replace with your background image filename */
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    #container {
+      background-color: rgba(255, 255, 255, 0.85);
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 800px;
+      margin: auto;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    }
+
+    img {
+      border: 3px solid black;
+      border-radius: 50%;
+      width: 300px;
+      height: auto;
+      display: block;
+      margin: 10px 0;
+    }
+
+    #b1 {
+      font-size: medium;
+      border: none;
+      color: rgb(247, 242, 0);
+      background-color: rgb(17, 108, 168);
+      border-radius: 5%;
+      padding: 8px 16px;
+      margin-right: 10px;
+      cursor: pointer;
+    }
+
+    #b2 {
+      font-size: medium;
+      border: none;
+      color: white;
+      background-color: rgb(0, 255, 213);
+      border-radius: 5%;
+      padding: 8px 16px;
+      cursor: pointer;
+    }
+
+    p {
+      border: 3px dashed red;
+      padding: 10px;
+      background-color: rgba(255, 255, 255, 0.8);
+    }
+
+    .dotted-div {
+      border: 3px dotted rgb(34, 179, 34);
+      padding: 10px;
+      margin-top: 10px;
+      background-color: rgba(255, 255, 255, 0.8);
+    }
+
+    .bordered-span {
+      border: 2px solid black;
+      padding: 4px;
+      margin-right: 5px;
+      display: inline-block;
+      background-color: rgba(255, 255, 255, 0.8);
+    }
+
+    .colored-box {
+      background-color: lightblue;
+      height: 100px;
+      width: 100px;
+      margin-top: 10px;
+      border: 2px solid black;
+    }
+
+    a {
+      background-color: rgb(0, 255, 106);
+      color: red;
+      padding: 6px 10px;
+      display: inline-block;
+      margin: 5px 5px 0 0;
+      border: 2px solid rgb(0, 255, 0);
+      border-radius: 5px;
+    }
+
+    a:link {
+      text-decoration: none;
+      color: green;
+    }
+
+    a:visited {
+      color: black;
+    }
+
+    a:hover {
+      color: aqua;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin: 5px 0;
+    }
+    #ul1{
+      color: blue;
+      background-color: rgb(241, 226, 8);
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 800px;
+      margin: auto;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla nesciunt expedita consectetur molestias. Praesentium delectus voluptatem totam distinctio recusandae, tempora ratione harum quae possimus ad, autem expedita quos nemo ea?
+    </p>
+
+    <div class="dotted-div">I am div</div>
+
+    <span class="bordered-span">I am span with border</span>
+    <span>I am span</span>
+
+    <img src="lion.jpg" alt="Lion Image">
+
+    <button id="b1">Warning</button>
+    <button id="b2">Success</button>
+
+
+    <div style="margin-top: 10px;">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact Us</a>
+    </div>
+<br>
+    <div>
+      <ul id="ul1">
+        <li>Pizza</li>
+        <li>Burger</li>
+        <li>dkjfhgklj</li>
+      </ul>
+    </div>
+    <br>
+    <div>
+      <ul id="ul2">
+        <li>Pizza</li>
+        <li>Burger</li>
+        <li>dkjfhgklj</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
