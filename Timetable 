@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>B.Tech II Sem Timetable - Section C</title>
+</head>
+<body>
+  <h2>ANAND INTERNATIONAL COLLEGE OF ENGINEERING</h2>
+  <h3>School of Basic and Applied Science</h3>
+  <h4>Time Table B. Tech. I Year, II Semester (Session 2024–2025)</h4>
+  <p><strong>Lecture Room No.:</strong> L-05 (North Block, Ground Floor) |
+     <strong>Section:</strong> C</p>
+  <table border="1" cellpadding="5" cellspacing="0">
+    <tr>
+      <th>Day/Period</th>
+      <th>09:05–09:50</th>
+      <th>09:50–10:35</th>
+      <th>10:35–11:25</th>
+      <th>11:25–12:10</th>
+      <th>12:10–12:55</th>
+      <th>12:55–01:40</th>
+      <th>01:40–02:25</th>
+      <th>02:25–03:10</th>
+      <th>03:15–04:00</th>
+    </tr>
+     <tr>
+      <th>Monday</th>
+      <td colspan="9" align="center">Leave</td>
+    </tr>
+    <tr>
+      <th>Tuesday</th>
+      <td colspan="2">Engg. Physics Lab</td>
+      <td>Library</td>
+      <td>PPS</td>
+      <td>LUNCH</td>
+      <td>Engineering Mathematics-II</td>
+      <td colspan="2">HVAS Lab - C2</td>
+      <td>Sports</td>
+    </tr>
+    <tr>
+      <th>Wednesday</th>
+      <td>Engineering Physics</td>
+      <td>MOOCS</td>
+      <td colspan="2">BEE Lab - C2</td>
+      <td>LUNCH</td>
+      <td>PPS</td>
+      <td colspan="2">Engg. Physics Lab - C1</td>
+      <td>IEDC</td>
+    </tr>
+    <tr>
+      <th>Thursday</th>
+      <td>Human Values</td>
+      <td>PPS</td>
+      <td colspan="2">Acting Your English</td>
+      <td>LUNCH</td>
+      <td>BEE</td>
+      <td colspan="2">CAMD Lab</td>
+      <td>Library</td>
+    </tr>
+    <tr>
+      <th>Friday</th>
+      <td>Human Values</td>
+      <td>BCM</td>
+      <td>Engineering Physics</td>
+      <td>Engg. Maths-II Tut-D1</td>
+      <td>LUNCH</td>
+      <td>PPS</td>
+      <td>Virtual Lab</td>
+      <td>Engg. Maths-II Tut-C2</td>
+      <td>Sports</td>
+    </tr>
+    <tr>
+      <th>Saturday</th>
+      <td>PPS</td>
+      <td>BEE</td>
+      <td>Engineering Mathematics-II</td>
+      <td>Engineering Physics - C2</td>
+      <td>LUNCH</td>
+      <td>Engg. Physics Tut - C1</td>
+      <td>Sports</td>
+      <td colspan="2">Library</td>
+    </tr>
+  </table>
+</body>
+</html>
