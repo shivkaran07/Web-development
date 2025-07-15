@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shivkaran Gurjar – Portfolio</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f4f4; /* Light background for contrast */
+      color: #333; /* Darker text color for readability */
+    }
+
+    img {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      transition: transform .3s;
+    }
+
+    img:hover {
+      transform: scale(1.1);
+    }
+
+    #navbar {
+      background: #003366; /* Dark blue background */
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    #navbar a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color .3s, background-color .3s, padding .3s;
+    }
+
+    #navbar a:hover {
+      color: #ffcc00; /* Gold color on hover */
+      background: #00509e; /* Lighter blue on hover */
+      padding: 8px 12px;
+      border-radius: 5px;
+    }
+
+    #hero {
+      background: linear-gradient(to right, #66a6ff, #89f7fe); /* Gradient background */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 60px 20px;
+      animation: fadeIn 2s;
+      text-align: left;
+      border-radius: 10px; /* Rounded corners */
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    }
+
+    #hero div {
+      margin-right: 100px; /* Space between text and image */
+    }
+
+    #hero h1 {
+      font-size: 48px; /* Increased font size */
+      color: #003366; /* Dark blue color */
+      margin: 0; /* Remove default margin */
+      font-weight: bold; /* Make the text bold */
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+    }
+
+    #hero p {
+      font-size: 24px; /* Increased font size */
+      color: #00509e; /* Lighter blue color */
+      margin-top: 10px; /* Space above the paragraph */
+      font-style: italic; /* Italicize for emphasis */
+    }
+
+    section {
+      padding: 40px 20px;
+      text-align: center;
+      background: #fff; /* White background for sections */
+      border-radius: 10px; /* Rounded corners */
+      margin: 20px; /* Space between sections */
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+    }
+
+    #about {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    #about img {
+      margin-left: 20px;
+    }
+
+    #skills, #projects, #education, #contact {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    h2 {
+      width: 100%; /* Ensure the heading takes full width */
+      text-align: center; /* Center the heading */
+      color: #003366; /* Dark blue color */
+      margin-bottom: 20px; /* Space below the heading */
+    }
+
+    #skills div, .project-card, .education-card, .contact-card {
+      margin: 20px;
+      padding: 15px;
+      max-width: 300px;
+      background: #e6f7ff; /* Light blue background for cards */
+      border-radius: 10px;
+      transition: transform .3s, box-shadow .3s;
+      text-align: left; /* Align text to the left within cards */
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+    }
+
+    #skills div:hover, .project-card:hover, .education-card:hover, .contact-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+    }
+
+    #contact a {
+      color: #003366; /* Dark blue color */
+      text-decoration: none;
+      font-weight: bold;
+      transition: color .3s;
+    }
+
+    #contact a:hover {
+      color: #ffcc00; /* Gold color on hover */
+    }
+
+    form input, form textarea {
+      width: 80%;
+      max-width: 400px;
+      padding: 10px;
+      margin: 10px auto;
+      display: block;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    form input:focus, form textarea:focus {
+      outline: none;
+      border-color: #003366; /* Dark blue border on focus */
+      box-shadow: 0 0 5px rgba(0, 51, 102, 0.3); /* Shadow on focus */
+    }
+
+    button {
+      background: #003366; /* Dark blue background */
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      margin: 10px 0;
+      transition: background .3s; /* Transition for hover effect */
+    }
+
+    button:hover {
+      background: #00509e; /* Lighter blue on hover */
+    }
+  </style>
+
+</head>
+<body>
+  <div id="navbar">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <div id="hero">
+    <div>
+      <h1>Hi, I'm Shivkaran Gurjar</h1>
+      <p>Web Developer | Designer</p>
+    </div>
+    <img src="Shivkaran Gurjar.jpg" alt="Shivkaran Gurjar">
+  </div>
+
+  <section id="about">
+    <div>
+      <h2>About Me</h2>
+      <h4>Hi, I’m Shivkaran Gurjar!
+
+I’m an aspiring frontend developer who is currently learning HTML and CSS, the building blocks of web development. I enjoy creating simple yet creative websites that are user-friendly and visually appealing.
+
+In my free time, I love to explore new technologies and tools in the world of web development. I’m always working on improving my coding skills, whether it’s by building projects, reading tutorials, or experimenting with new ideas.</h4>
+      <a href="resume.pdf" download><button>Download Resume</button></a>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div>
+      <strong>HTML</strong><br>Basic structure and tags
+    </div>
+    <div>
+      <strong>CSS</strong><br>Layout, color, simple design
+    </div>
+    <div>
+      <strong>JavaScript</strong><br>Basic logic (learning)
+    </div>
+    <div>
+      <strong>C/C++</strong><br>Proficient in systems programming
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="project-card">
+      <strong>Project 1</strong>
+      <p>Simple web page using HTML &amp; CSS.</p>
+    </div>
+    <div class="project-card">
+      <strong>Project 2</strong>
+      <p>Simple Portfolio using HTML &amp; CSS.</p>
+    </div>
+    <div class="project-card">
+      <strong>Project 2</strong>
+      <p>Basic calculator interface (coming soon).</p>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>My Qualification</h2>
+    <div class="education-card">
+      <strong>2022:</strong> Class 10th from Abhaneri
+    </div>
+    <div class="education-card">
+      <strong>2024:</strong> Class 12th from Bandikui
+    </div>
+    <div class="education-card">
+      <strong>2025:</strong> Now B.Tech from Anand College Jaipur
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-card">
+      <a href="mailto:shivkaran23227@gmail.com">E-Mail: shivkaran23227@gmail.com</a><br>
+      <a href="https://github.com/shivkaran07">Github: shivkaran07</a><br>
+      <a href="https://linkdin.com/shivkaran207"> Linkdin : shivkaran207</a>
+    </div>
+  </section>
+</body>
+</html>
